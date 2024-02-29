@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+background-color: black;
+}
+.container {
+    margin: auto;
+    margin-top: 30px;
+    width: 960px;
+    height: 690px;
+    background:linear-gradient(30deg, #91E6DA, #98C1B8, #98C1B8, #e7f9f8, white);
+    display: flex;
+    
+}
+.left {
+    background: linear-gradient(80deg, #B1C4C0, #F2FBF9);
+    width: 280px;
+    height: 690px;
+    border-radius: 20px;
+    color: #849baf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.top img {
+    width: 70px;
+    border-radius: 50%;
+}
+.top {
+    color: #7892aa;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left .material-symbols-outlined {
+    color: #7EB8DB;
+    font-size: 40px;
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+.bottom {
+    background:linear-gradient(180deg, #76BDA9, #82CCC7);
+    width: 230px;
+    height: 100px;
+    border-radius: 20px;
+    color: rgb(217, 245, 254);
+    font-size: 24px;
+    font-weight: bolder;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.bottom img {
+    width: 90px;
+}
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+    font-size: larger;
+}
+.ics {
+    display: flex;
+    padding: 20px;
+    gap: 25px;
+}
+.games img {
+    width: 70px;
+    height: 70px;
+    border-radius: 30%;
+    
+}
+.games {
+    width: 680px;
+    height: 690px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 30px;
+}
+.gta {
+    background-color: #E7FAF7;
+    width: 560px;
+    height: 125px;
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    color: #709389;
+}
+.loading {
+    background-color: #92E6DA;
+    width: 250px;
+    height: 25px;
+    border-radius: 20px;
+}
+.up h1{
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: ;
+    color: rgb(104, 129, 123);
+}
+.up {
+    padding-top: 50px;
+    padding-left: 60px;
+}
+.lpd {
+    background-color: white;
+    width: 280px;
+    height: 25px;
+    border-radius: 20px;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
